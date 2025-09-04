@@ -6,7 +6,7 @@ import java.awt.Container;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class Prog4c extends JPanel
+public class Prog6c extends JPanel
 {
   public void paintComponent(Graphics g)
   {
@@ -32,7 +32,7 @@ public class Prog4c extends JPanel
     window.setBounds(300, 300, 200, 150);
     window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-    Prog4c panel = new Prog4c();
+    Prog6c panel = new Prog6c();
     panel.setBackground(Color.BLUE);  // the default color is light gray
     Container c = window.getContentPane();
     c.add(panel);
